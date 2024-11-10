@@ -1,4 +1,6 @@
+# -------------------------
 # Python
+# -------------------------
 **/__pycache__/
 *.pyc
 *.pyo
@@ -7,9 +9,11 @@
 *.log
 **/.env
 **/.env.*
-**/.env.**
+**/.env.*
 
+# -------------------------
 # Java
+# -------------------------
 **/build/
 **/bin/
 **/target/
@@ -26,16 +30,18 @@
 **/pom.xml.versionsBackup
 **/dependency-reduced-pom.xml
 
-# Node modules (JavaScript)
+# -------------------------
+# Node.js (JavaScript)
+# -------------------------
 **/node_modules/
 node_modules/
-
-# Build output directories (JavaScript)
 dist/
 build/
 dist-ssr/
 
+# -------------------------
 # Logs
+# -------------------------
 **/logs/
 *.log
 npm-debug.log*
@@ -44,37 +50,53 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# -------------------------
 # Environment variables
+# -------------------------
 **/.env
 **/.env.*
-**/.env.**
+**/.env.*
 
+# -------------------------
 # Databases
+# -------------------------
 mongo/
 mongo-test/
 postgres/
 postgres-test/
 
+# -------------------------
 # Custom outputs
+# -------------------------
 custom-outputs/
 test-destination/
 
+# -------------------------
 # Coverage reports
+# -------------------------
 coverage/
 
+# -------------------------
 # Keys and sensitive files
+# -------------------------
 keys/
 
-# Local Netlify folder
+# -------------------------
+# Netlify folder
+# -------------------------
 .netlify
 
+# -------------------------
 # Package lock file (JavaScript)
+# -------------------------
 package-lock.json
 
+# -------------------------
 # Editor directories and files
+# -------------------------
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
@@ -82,14 +104,18 @@ package-lock.json
 *.sln
 *.sw?
 
-# Miscellaneous (Java, Python, and JS)
+# -------------------------
+# Miscellaneous
+# -------------------------
 **/.txt
 **/.xml
 **/.mf
 **/nbproject
 HELP.md
 
+# -------------------------
 # Java IDEs & Tools
+# -------------------------
 ## STS (Spring Tool Suite)
 .apt_generated
 .classpath
@@ -115,5 +141,91 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-# VS Code
-.vscode/
+# -------------------------
+# Visual Studio (Windows & Mac)
+# -------------------------
+.vs/
+.vs2019/
+.vs2017/
+.vscode/  # If used for Visual Studio for Mac
+.vscode/*  # If used for Visual Studio Code
+.vspscc
+.vssscc
+
+# -------------------------
+# ASP.NET (C#)
+# -------------------------
+# ASP.NET temporary files
+App_Data/
+App_Start/
+Areas/
+content/
+fonts/
+App_Browsers/
+App_Themes/
+bin/
+obj/
+Properties/
+
+# ASP.NET web application files
+web.*
+Global.*
+
+# IIS Express (ASP.NET local server)
+iisexpress/
+
+# -------------------------
+# ASP.NET build results
+# -------------------------
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]evelopment/
+[Dd]ebug-AnyCPU/
+[Dd]ebug-x86/
+[Dd]ebug-x64/
+[Dd]ebug-Mac/
+
+# -------------------------
+# Windows Installer files
+# -------------------------
+*.cab
+*.msi
+*.msm
+*.msp
+
+# -------------------------
+# JetBrains Rider
+# -------------------------
+.idea/
+
+# -------------------------
+# .NET Core
+# -------------------------
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# -------------------------
+# Resharper files
+# -------------------------
+_ReSharper.Caches/
+
+# -------------------------
+# Package files (for .NET)
+# -------------------------
+packages/
+
+# -------------------------
+# User-specific files
+# -------------------------
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# -------------------------
+# Windows image file caches
+# -------------------------
+Thumbs.db
+ehthumbs.db
