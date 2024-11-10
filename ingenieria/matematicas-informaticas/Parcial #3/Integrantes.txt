@@ -1,0 +1,5 @@
+Instrucciones: Tomando como partida el desarrollo del examen pasado, donde permitía al usuario agregar la matriz de adyacencia o incidencia del grafo no dirigido, ahora va a agregar al menú la posibilidad de agregar la matriz de adyacencia e incidencia para grafos dirigidos. También debe seguir validando que las matrices sean correctas de acuerdo con la teoría vista en clase. Además, debe agregar que el programa grafique el grafo resultado para la matriz ingresada.
+
+Trabajado por:
+	Darwin Alexander Osorio Ospina
+	Melisa Colorado Soto
